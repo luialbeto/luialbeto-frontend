@@ -22,7 +22,7 @@ const Container = styled(Grid.Container)(
 )
 
 const loadingAnimation = keyframes`
-  0% {
+  99% {
     width: 40px;
   }
 
@@ -54,7 +54,7 @@ const LoadingBar = styled.div(
       height: 100%;
       animation: ${isLoading
           ? css`
-              ${loadingAnimation} 300s
+              ${loadingAnimation} 3s
             `
           : css`
               ${loadingEndAnimation} 1.4s

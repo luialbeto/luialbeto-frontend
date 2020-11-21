@@ -7,7 +7,8 @@ import {
   waitForDomChange,
   fireEvent,
   within,
-  screen,
+  // screen
+  // comentei por não ser utilizado no teste
 } from '@testing-library/react'
 
 import Assignment from './Assignment'

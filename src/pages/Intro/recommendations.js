@@ -4,8 +4,12 @@ import Link from '../../components/Link'
 
 const recommendations = [
   <>
-    Read the <Link href="#">assignment instructions</Link> carefully;
-  </>,
+    Read the{' '}
+    <Link href="https://github.com/lemonenergy/frontend-recruitment-assignment-1">
+      assignment instructions
+    </Link>{' '}
+    carefully;
+  </>, // fix href, faltava link (resolvido)
   <>
     Take your time, we are not evaluating how fast you complete the assignment,{' '}
     <Body100 as="span" bold>
