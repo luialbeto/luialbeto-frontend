@@ -13,9 +13,9 @@ const Router = () => {
         <Route path="/assignment">
           <Assignment />
         </Route>
-        <Route>
+       {/*  <Route>
           <Redirect to="/intro" />
-        </Route>
+        </Route> */}
       </Switch>
     </BrowserRouter>
   )
